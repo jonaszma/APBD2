@@ -3,17 +3,17 @@
 Console.WriteLine("Hello, User!!!!");
 Console.WriteLine("Hello, User!!!!");
 int[] arr = new[] { 1, 2, 3, 4 };
-Console.WriteLine(GetAvg(arr));
+Console.WriteLine(GetAvggg(arr));
 Console.WriteLine(GetMax(arr));
-static double GetAvg(int[] arr)
+static double GetAvggg(int[] arr)
 {
-    int sum = 0;
+    int summ = 0;
     foreach (var num in arr)
     {
-        sum += num;
+        summ += num;
     }
 
-    return (double)sum / arr.Length;
+    return (double)summ / arr.Length;
 }
 
 static double GetMax(int[] arr)
